@@ -26,11 +26,19 @@ font
 }
 header{
     background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+
 }
 header::after{
+    overflow: hidden;
     content: '';
     display: table;
     clear: both;
+
     
 }
 nav{
@@ -70,15 +78,44 @@ nav ul li a {
     background: #4aaaa5;
 }
 
-.main-section{
-    background-color: white;
-    padding: 30px;
-
-}
 /* body section */
 
 
 .main-section{
-    margin: auto;
-    
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    border: solid 1px;
+    margin-top: 130px;
+
+
+}
+#main-container{
+    margin-top: 50px;
+
+}
+
+.logos{
+    position: relative;
+   float: left;
+   max-width: 100%;
+   display: block;
+  
+
+}
+.logos h3{
+    bottom: 120px;
+    position: relative;
+    left: 50px;
+
+}
+
+img{
+    max-width: 100%;
+    height: 250px;
+    width: 250px;
+    margin: 25px;
+
+
 }
