@@ -1,0 +1,84 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+color: #777;
+background: url("../images/interlaced.png")
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* navigation bar */
+li,a{
+font-family: Georgia, 'Times New Roman', Times, serif
+font
+}
+.container{
+    width: 80%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+header{
+    background-color: white;
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+    
+}
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    margin-left: 15px;
+    padding-top: 30px;
+    
+}
+nav ul li a {
+    color: #337ab7;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+.navname{
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #4aaaa5;
+}
+
+.main-section{
+    background-color: white;
+    padding: 30px;
+
+}
+/* body section */
+
+
+.main-section{
+    margin: auto;
+    
+}
