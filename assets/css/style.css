@@ -23,6 +23,7 @@ font
     max-width: 960px;
     margin: 0 auto;
     clear: both;
+    
 }
 header{
     background-color: white;
@@ -31,10 +32,12 @@ header{
     left: 0;
     margin: 0;
     width: 100%;
+    overflow: visible;
+    z-index: 1;
 
 }
 header::after{
-    overflow: hidden;
+    overflow: scroll;
     content: '';
     display: table;
     clear: both;
@@ -43,6 +46,8 @@ header::after{
 }
 nav{
     float: right;
+    overflow: hidden;
+
 }
 
 nav ul{
@@ -86,13 +91,15 @@ nav ul li a {
     width: 100%;
     max-width: 960px;
     padding: 30px;
-    border: solid 1px;
     margin-top: 130px;
+    background: white;
+    
 
 
 }
 #main-container{
     margin-top: 50px;
+
 
 }
 
@@ -101,21 +108,101 @@ nav ul li a {
    float: left;
    max-width: 100%;
    display: block;
+   
   
 
 }
 .logos h3{
     bottom: 120px;
     position: relative;
-    left: 50px;
+    left: 25px;
+    text-align: center;
+    background: aqua;
+    display: block;
+    margin-right: 50px;
+    padding: 15px;
+    color: white;
+
 
 }
 
 img{
+    position:sticky;
     max-width: 100%;
     height: 250px;
     width: 250px;
     margin: 25px;
 
+}
 
+/* About me page */
+
+.container-about{
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 30px 30px;
+    margin-top: 130px;
+    background: white;
+
+
+}
+#head{
+    float: left;
+    display: block;
+    max-width: 100%;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    
+
+}
+#about{
+    padding: 5px 10px 10px;
+    margin-bottom: 15px;
+    border-bottom: solid 1px;
+
+}
+#bodycontain{
+    margin-top: 10px;
+
+}
+.me{
+    text-align: justify;
+
+}
+
+/* Contact Section */
+
+.contactcontain{
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 30px 30px;
+    margin-top: 130px;
+    background: white;
+}
+.contactcontain h1{
+    padding-bottom: 10px;
+    border-bottom: solid 1px;
+    border-color: #777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    
+}
+
+#submit{
+    padding: 7px;
+    color: white;
+    background: #4aaaa5;
+
+}
+.inputs{
+    width: 100%
+}
+.inputs1{
+    width: 100%;
+    height: 150px;
+
+    
 }
