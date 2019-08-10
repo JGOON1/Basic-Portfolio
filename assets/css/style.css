@@ -93,6 +93,8 @@ nav ul li a {
     padding: 30px;
     margin-top: 130px;
     background: white;
+    margin-bottom: 130px;
+
 
 }
 .main-section h1{
@@ -143,22 +145,17 @@ img{
 }
 
 /* Footer Section */
-.footer{
-    padding: 20px;
-    background: #4aaaa5;
-    margin-top: 3px;
-    
-
-
-}
-#CR{
-    text-align: center;
-    top: 20px;
+footer{
+    position: fixed;
+    bottom: 0px;
+    background: #777;
+    width: 100%;
     color: white;
-    background: #777
+    text-align: center;
+    padding: 20px 20px 0px;
+
 
 }
-
 /* About me page */
 
 .container-about{
