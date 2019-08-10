@@ -93,10 +93,14 @@ nav ul li a {
     padding: 30px;
     margin-top: 130px;
     background: white;
-    
-
 
 }
+.main-section h1{
+    margin-left: 26px;
+
+}
+
+
 #main-container{
     margin-top: 50px;
 
@@ -108,6 +112,7 @@ nav ul li a {
    float: left;
    max-width: 100%;
    display: block;
+   width: 50%;
    
   
 
@@ -119,9 +124,11 @@ nav ul li a {
     text-align: center;
     background: aqua;
     display: block;
-    margin-right: 50px;
+    margin-right: 199px;
     padding: 15px;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 
 
 }
@@ -132,6 +139,23 @@ img{
     height: 250px;
     width: 250px;
     margin: 25px;
+
+}
+
+/* Footer Section */
+.footer{
+    padding: 20px;
+    background: #4aaaa5;
+    margin-top: 3px;
+    
+
+
+}
+#CR{
+    text-align: center;
+    top: 20px;
+    color: white;
+    background: #777
 
 }
 
